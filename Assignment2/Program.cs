@@ -16,8 +16,8 @@ namespace Assignment2
             Hero Neil = new Hero("Neil");
             Neil.show();
             Neil.fight();
-            SuperHero showme = new SuperHero("showme");
-            showme.generateRandomPowers();
+          //  SuperHero showme = new SuperHero("showme");
+           // showme.generateRandomPowers();
         }
     }
 }
