@@ -6,7 +6,20 @@ using System.Threading.Tasks;
 
 namespace Assignment2
 {
-    class SuperHero
+    class SuperHero : Hero
     {
+
+        public SuperHero(string name) : base(name)
+        {
+        
+        
+        }
+    
+    
+    
+    
+    
+    
+    
     }
 }
