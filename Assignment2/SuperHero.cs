@@ -8,7 +8,7 @@ namespace Assignment2
 {
     class SuperHero : Hero
     {
-       private string[] superPowers = { "Super	Speed", "Super	Strength", "Body Armour", "Flight", "Fire Generation", "Weather Control" };
+       private string[] superPowers = { "SUPER SPEED", "SUPER STRENGTH", "BODY ARMOR", "FLIGHT", "FIRE GENERATION", "WEATHER CONTROL" };
        string[] newArray = new string[3];
        int index =0;
        int randomPower;
@@ -41,17 +41,23 @@ namespace Assignment2
                     index++;
                 }
 
-            
-            
-            
-            
+           
             
              }
        
          }
 
 
-
+        public void showPowers() 
+        {
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine("Your first advanced Super Power is {0}",superPowers[0]);
+            Console.WriteLine("Your second advanced Super Power is {0}", superPowers[1]);
+            Console.WriteLine("Your third advanced Super Power is {0}", superPowers[2]);
+            Console.WriteLine("++++++++++++++++++++++++++++++++++++++++++");
+            Console.WriteLine();
+       
+        }
 
 
 
