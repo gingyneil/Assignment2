@@ -21,6 +21,8 @@ namespace Assignment2
             SuperHero NewSuperHero = new SuperHero("Neil");
             NewSuperHero.showPowers();
             NewSuperHero.fight();
+            Console.WriteLine("Press any key to continue");
+            Console.ReadKey();
             
         }
     }
